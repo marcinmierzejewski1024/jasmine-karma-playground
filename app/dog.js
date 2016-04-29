@@ -1,7 +1,7 @@
 /**
  * Created by marcin on 29/04/16.
  */
-window.dog = {
+dog = {
     name: "reks",
 
     bark: function () {
@@ -11,3 +11,5 @@ window.dog = {
         return "hop hop hop";
     }
 }
+
+module.exports=dog
