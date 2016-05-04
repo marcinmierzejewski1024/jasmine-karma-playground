@@ -1,6 +1,6 @@
-var dog = require('../app/dog.js')
+//var dog = require('../app/dog.js')
 describe("Dog test", function () {
     it("dog should bark with hauuu", function () {
-        expect(dog.bark()).toBe("hauuu")
+        expect(window.dog.bark()).toBe("hauuu")
     })
 })

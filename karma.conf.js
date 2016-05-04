@@ -31,6 +31,11 @@ module.exports = function(config) {
       'spec/*.js': ["coverage", "browserify"]
     },
 
+    "browserify": {
+      "debug": true,
+      "transform": ["browserify-istanbul"]
+    },
+
     coverageReporter: {
       type:"text"
     },
