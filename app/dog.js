@@ -1,7 +1,7 @@
 /**
  * Created by marcin on 29/04/16.
  */
-dog = {
+var dog = {
     name: "reks",
 
     bark: function () {
@@ -11,5 +11,4 @@ dog = {
         return "hop hop hop";
     }
 }
-
-module.exports=dog
+export {dog}
