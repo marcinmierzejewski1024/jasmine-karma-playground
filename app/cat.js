@@ -11,4 +11,4 @@ var cat = {
         return "siup siup siup";
     }
 }
-export {cat}
+module.exports = cat
